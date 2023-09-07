@@ -5,6 +5,7 @@
 <meta name ="Social media" content="A fun Social Media for cool & new developers">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="manifest" href="/manifest.json">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 <link rel="stylesheet" href="style.css">
@@ -14,6 +15,12 @@
 <script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
 <!------------------LIght BOx for Gallery-------------->
 <title>Minha Rede Social</title>
+
+<script>
+    if(typeof navigator.serviceWorker !== 'undefined'){
+        navigator.serviceWorker.register('pwabuilder-sw.js')
+    }
+</script>
 </head>
 <body>
 

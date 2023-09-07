@@ -1,0 +1,22 @@
+{
+  "background_color": "#000000",
+  "description": "MRS Social, é uma rede social para desenvolvedores em processo de evolução!",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "MRS Social",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "MRS Social",
+  "start_url": "/",
+  "theme_color": "#000000",
+  "categories": [
+    "business",
+    "education",
+    "entertainment",
+    "social"
+  ],
+  "screenshots": [],
+  "icons": [],
+  "shortcuts": [],
+  "lang": "pt"
+}
