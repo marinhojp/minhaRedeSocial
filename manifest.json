@@ -16,7 +16,23 @@
     "social"
   ],
   "screenshots": [],
-  "icons": [],
+  "icons": [
+    {
+      "src": "AppIcons/playstore.png",
+      "sizes": "512x512",
+      "types": "image/png"
+    }
+
+    ,
+    
+    {
+      "src": "AppIcons/appstore.png",
+      "sizes": "512x512",
+      "types": "image/png"
+    }
+
+
+  ],
   "shortcuts": [],
   "lang": "pt"
 }
