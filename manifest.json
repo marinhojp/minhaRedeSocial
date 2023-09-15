@@ -1,5 +1,5 @@
 {
-  "background_color": "#000000",
+  "background_color": "##696e71",
   "description": "MRS Social, é uma rede social para desenvolvedores em processo de evolução!",
   "dir": "ltr",
   "display": "standalone",
@@ -8,7 +8,7 @@
   "scope": "/",
   "short_name": "MRS Social",
   "start_url": "/",
-  "theme_color": "#000000",
+  "theme_color": "##696e71",
   "categories": [
     "business",
     "education",
@@ -20,7 +20,8 @@
     {
       "src": "AppIcons/playstore.png",
       "sizes": "512x512",
-      "types": "image/png"
+      "types": "image/png",
+      "purpose": "any maskable"
     }
 
     ,
@@ -28,7 +29,8 @@
     {
       "src": "AppIcons/appstore.png",
       "sizes": "512x512",
-      "types": "image/png"
+      "types": "image/png",
+      "purpose": "any maskable"
     }
 
 
