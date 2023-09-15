@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="Social Media Profile" content="Your Social Media Profile">
+<meta name="description" content="Your Social Media Profile">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#696e71"/>
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -21,6 +21,12 @@
 
 
 <title>Meu Perfil</title>
+
+<script>
+    if(typeof navigator.serviceWorker !== 'undefined'){
+        navigator.serviceWorker.register('pwabuilder-sw.js')
+    }
+</script>
 </head>
 <body>
 

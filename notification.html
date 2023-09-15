@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="Social Media Notification" content="Notifications of your profile">
+<meta name="description" content="Notifications of your profile">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#696e71"/>
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,6 +11,12 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 <link rel="stylesheet" href="style.css">
 <title>Notificações</title>
+
+<script>
+    if(typeof navigator.serviceWorker !== 'undefined'){
+        navigator.serviceWorker.register('pwabuilder-sw.js')
+    }
+</script>
 </head>
 <body>
 
